@@ -90,7 +90,7 @@ const Dateils = () => {
                     <Link to="/player" className="listen-for-free">
                       NGHE AUDIO MIỄN PHÍ
                     </Link>
-                    <Link className="proofread">ĐỌC THỬ</Link>
+                    <Link to="/pdf" className="proofread">ĐỌC THỬ</Link>
                     <button className="buy-books">
                       <div className="icon">
                         <img src="" alt="" />
