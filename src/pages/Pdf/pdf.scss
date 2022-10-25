@@ -1,0 +1,122 @@
+.pdf {
+  .container {
+    background: #f7f7fc;
+  }
+  .navigation-bar-pdf {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .navigation-bar-pdf .right {
+    display: flex;
+    align-items: center;
+  }
+  .navigation-bar-pdf .right .come-back {
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  .navigation-bar-pdf .right .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #262338;
+  }
+
+  .navigation-bar-pdf .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 219px;
+    height: 64px;
+    border: 2px solid #3d40c6;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  .navigation-bar-pdf .left .text-left {
+    font-family: SVN-Gilroy-regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 34px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #3d40c6;
+    margin-left: 10px;
+  }
+
+  .read-a-book {
+    background: #4e4b66;
+    padding: 90px 0px 90px 0px;
+    width: 86%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 38px;
+  }
+
+  .options-pdf {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  .options-pdf ul {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .options-pdf ul li {
+    list-style: none;
+    cursor: pointer;
+  }
+  .flipbook {
+    margin-left: 100px !important;
+  }
+  .read-a-book {
+    position: relative;
+  }
+  .book-page-number {
+    font-family: SVN-Gilroy-regular;
+    position: absolute;
+    top: 0px;
+    width: 140px;
+    height: 40px;
+    background: #262338;
+    color: #fcfcfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 34px;
+  }
+  .read-a-book .img-book {
+    width: 480px;
+    height: 720px;
+    margin: auto;
+  }
+  .read-a-book .next-left,
+  .read-a-book .next-right {
+    position: absolute;
+    top: 50%;
+  }
+  .read-a-book .next-left {
+    left: 10px;
+    padding: 10px 17px;
+    border: none;
+    border-radius: 50%;
+    background: #eff0f7;
+  }
+  .read-a-book .next-right {
+    right: 10px;
+    padding: 10px 17px;
+    border: none;
+    border-radius: 50%;
+    background: #eff0f7;
+  }
+}

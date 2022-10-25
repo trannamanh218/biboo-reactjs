@@ -1,0 +1,208 @@
+.biboo > .brb-items-right {
+    width: 23%;
+}
+.brb-items-right {
+    background: #fcfcfc;
+    padding: 70px 30px 0px 30px;
+}
+.bg-brb-items-right {
+    background: #fcfcfc;
+}
+.option-brb-items-right {
+    justify-content: space-around;
+    margin-bottom: 61px;
+    align-items: center;
+    margin-top: 6px;
+}
+.option-brb-items-right .cart-option-brb-items-right,
+.option-brb-items-right .bell-option-brb-items-right,
+.option-brb-items-right .user-option-brb-items-right {
+    cursor: pointer;
+}
+.listen-a-lot-brb-items-right .title-listen-a-lot p {
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #262338;
+    margin: 30px 0px;
+}
+.book-topic {
+    background: #eff0f7;
+    border-radius: 8px;
+    padding: 2px 4px;
+    margin-bottom: 20px;
+}
+.right-books-listen-a-lott {
+    margin-right: 10px;
+    position: relative;
+    width: 44.5%;
+}
+.books-listen-a-lot {
+    margin-bottom: 40px;
+}
+.numerical-order-book {
+    width: 30px;
+    position: absolute;
+    top: -12px;
+    left: -12px;
+}
+.book-topic p {
+    font-family: SVN-Gilroy-regular;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #6e7191;
+}
+.evaluate-book {
+    align-items: center;
+}
+.evaluate-book > img {
+    width: 20px;
+}
+.evaluate-book > p {
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-family: SVN-Gilroy-regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #a0a3bd;
+}
+.left-books-listen-a-lott {
+    width: 55.5%;
+    padding-left: 18px;
+    padding-top: 15px;
+}
+.left-books-listen-a-lott .title-book-topic a p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: #382e23;
+    margin-bottom: 0px;
+}
+.left-books-listen-a-lott .author-book p {
+    font-family: "SVN-Gilroy-Regular";
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    color: #a0a3bd;
+    margin-bottom: 30px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.items-suggested-book {
+    margin: 0px 10px;
+}
+.items-suggested-book > .img-items-suggested-book > img {
+    width: 100%;
+}
+
+.cardd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 488px;
+    left: 1520px;
+    top: 1140px;
+    background: #f7f7fc;
+    border-radius: 22.2222px;
+}
+.target .title-cardd {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #262338;
+    flex: none;
+    margin: 50px 0px 30px 0px;
+}
+.cardd .percent {
+    position: relative;
+}
+
+.cardd svg {
+    position: relative;
+    width: 360px;
+    height: 350px;
+    transform: rotate(-0deg);
+}
+
+.cardd svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: rgba(238, 229, 254, 1);
+    stroke-width: 10;
+    stroke-linecap: round;
+}
+
+.cardd svg circle:last-of-type {
+    stroke-dasharray: 566px;
+    stroke-dashoffset: calc(625px - (625px * var(--percent)) / 100);
+    stroke: rgba(95, 46, 234, 1);
+}
+
+.cardd .number {
+    position: absolute;
+    top: 38%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+
+.cardd .number h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #262338;
+}
+
+.cardd .number p {
+    font-family: SVN-Gilroy-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #6e7191;
+}
+.cardd .percent .button-reading-goal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 12px;
+    background: #eee5fe;
+    border-radius: 32px;
+    border: none;
+    margin: auto;
+}
+.cardd .percent .button-reading-goal span {
+    font-family: SVN-Gilroy-regular;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #3c0594;
+}

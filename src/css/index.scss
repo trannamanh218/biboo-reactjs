@@ -1,0 +1,404 @@
+@font-face {
+  font-family: SVN-Gilroy-regular;
+  src: url("../../public/fonts/SVN-Gilroy\ Regular.otf");
+}
+
+@font-face {
+  font-family: SVN-Gilroy-Bold;
+  src: url("../../public/fonts/SVN-Gilroy\ Bold.otf");
+}
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "SVN-Gilroy-Bold", "Times New Roman", Times, serif;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+.containerr {
+  position: relative;
+  max-width: 1920px;
+  background: #4a4de3;
+  padding: 0px;
+  margin: 0px auto;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+[class*="col-"] {
+  margin: 0px;
+  padding: 0px;
+}
+.dp-flex {
+  display: flex;
+}
+.row {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  width: 100%;
+}
+.sp-between {
+  justify-content: space-between;
+}
+.left-books-listen-a-lott .title-book-topic a {
+  text-decoration: none;
+}
+.left-books-listen-a-lott .title-book-topic a p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.book-topic>a {
+  text-decoration:  none;
+}
+.book-topic p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  margin: 0px;
+  padding: 3.5px 0px;
+}
+
+.biboo > .menu {
+  width: 15%;
+}
+.menu-mobi {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-between;
+  background: #fcfcfc;
+  align-items: center;
+  padding: 25px 20px 10px 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: #fcfcfc;
+  border-top: 1px solid #a0a3bd;
+}
+.biboo {
+  display: flex;
+}
+.menu-mobi .nav-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+.menu-mobi > .nav-item > p {
+  font-weight: 400;
+  font-family: SVN-Gilroy-regular;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #6e7191;
+}
+.menu-mobi .nav-item >img{
+  width: 26px;
+  height: 26px;
+}
+@media only screen and (min-width: 574px) {
+  .menu-mobi {
+    display: none;
+  }
+  .list-a-lot-brb-items-right {
+    display: none;
+  }
+}
+@media only screen and (max-width: 574px) {
+  .biboo {
+    flex-direction: column;
+  }
+  .box-left-biboo {
+    display: none;
+  }
+  .biboo > .brb-items-left {
+    width: 100%;
+    border-radius: 0px;
+    padding: 20px;
+  }
+  .biboo > .brb-items-right {
+    display: none;
+  }
+  .biboo > .menu {
+    width: 100%;
+  }
+  .box-suggested-book {
+    overflow: hidden;
+    padding-bottom: 20px;
+  }
+  .menu-mobi {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    z-index: 111;
+  }
+  #myTab {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .brb-items-left .nav-tabs .nav-item {
+    margin-bottom: 30px;
+  }
+  .brb-items-left .nav-tabs .nav-item .nav-link {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    margin-right: 0px;
+  }
+  .underlined {
+    width: 100%;
+  }
+  .brb-search {
+    margin-bottom: 20px;
+  }
+  .brb-search input {
+    font-size: 17px;
+    padding: 10px 10px 10px 40px;
+    border-radius: 10px;
+  }
+  .brb-search a {
+    top: 8px;
+    left: 15px;
+    width: 18px;
+    height: 18px;
+  }
+  .brb-recently-watched {
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+  .brb-recently-watched .left-brb-recently-watched {
+    width: 45%;
+  }
+  .right-brb-recently-watched {
+    padding: 0px 0px 0px 10px;
+    width: 55%;
+  }
+
+  .watching-right-brb-recently-watched {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    width: 100%;
+    height: 35px;
+    border-radius: 8px;
+    margin: 0px 0px 10px 0px;
+  }
+  .right-brb-recently-watched .title-right-brb-recently-watched {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .right-brb-recently-watched .text-right-brb-recently-watched p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+  .index-progress {
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 16px;
+    margin-bottom: 0px;
+  }
+  .progress {
+    margin-bottom: 10px;
+    height: 6px;
+  }
+  .progress-bar {
+    width: 29% !important;
+  }
+  .bottom-right-brb-recently-watched button span {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .bottom-right-brb-recently-watched button {
+    padding: 8px 20px;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .suggested-book .title-suggested-book p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+  }
+  .suggested-book
+    .box-suggested-book
+    .items-suggested-book
+    .information-items-suggested-book
+    .title-book {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .suggested-book
+    .box-suggested-book
+    .items-suggested-book
+    .information-items-suggested-book
+    .author-book {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .box-suggested-book .items-suggested-book:nth-child(3),
+  .box-suggested-book .items-suggested-book:nth-child(4) {
+    display: none;
+  }
+  .caroseo-brb-items {
+    margin-bottom: 20px;
+  }
+  .button-icon-right,
+  .button-icon-left {
+    display: none !important;
+  }
+  .title-listen-a-lot > p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    margin: 20px 0px;
+  }
+  .book-topic p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .left-books-listen-a-lott .title-book-topic a p {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+  }
+  .left-books-listen-a-lott .author-book p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 5px;
+  }
+  footer {
+    padding: 0px;
+    flex-direction: column;
+  }
+  footer .top-footer {
+    padding: 50px 10px 0px 10px;
+  }
+  .corporate-email {
+    justify-content: center;
+  }
+  .company-policy {
+    margin: 0px;
+    justify-content: center;
+    text-align: center;
+  }
+  .company-policy .items-company-policy {
+    margin: 15px 0px;
+    font-size: 16px;
+  }
+  .company-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .connection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottom-footer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .right-books-listen-a-lott {
+    width: 45%;
+    margin-right: 10px;
+  }
+  .left-books-listen-a-lott {
+    width: 55%;
+  }
+  .book-topic {
+    width: 80%;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+  }
+  .button-see-more {
+    background: none;
+    margin-top: 10px;
+    border: 1px solid #3c0594;
+    border-radius: 30px;
+    width: 70%;
+    padding: 8px 0px;
+  }
+  .button-see-more > span {
+    color: #3c0594;
+  }
+  .suggested-book .title-suggested-book {
+    margin-bottom: 20px;
+  }
+  .about-us .company-name .title-company-name p {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 24px;
+  }
+  .about-us .company-origin {
+    font-size: 16px;
+  }
+  .about-us .company-address .text-company-address,
+  .about-us .corporate-email .text-corporate-email {
+    font-size: 16px;
+  }
+  .company-policy .title-company-policy {
+    font-size: 18px;
+  }
+  .company-app .title-company-app,
+  .connection .title-connection,
+  .connection .title-quick-link {
+    font-size: 18px;
+  }
+  .logo-bottom-footer {
+    margin-bottom: 20px;
+  }
+  .logo-bottom-footer img {
+    width: 50%;
+  }
+  .brb-items-left > .nav-tabs {
+    justify-content: space-between;
+    margin-bottom: 10px !important;
+  }
+  .caroseo-brb-items {
+    .slick-slider {
+      div {
+        a {
+          img {
+            width: 280px;
+            height: 180;
+          }
+        }
+      }
+    }
+  }
+}

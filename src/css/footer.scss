@@ -1,0 +1,174 @@
+/*footer*/
+footer {
+    .top-footer {
+        margin: 0px;
+        border-bottom: 1.33333px solid rgba(255, 255, 255, 0.08);
+    }
+}
+footer {
+    .top-footer {
+        padding: 63px 130px 0px 130px;
+    }
+}
+
+.top-footer,
+.bottom-footer {
+    width: 100%;
+}
+.about-us {
+    margin-right: 0px;
+}
+.about-us .company-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.about-us .company-name .icon-logo-company-name {
+    margin-right: 20px;
+}
+.about-us .company-name .icon-logo-company-name > img {
+    width: 80px;
+}
+.about-us .company-name .title-company-name p {
+    font-family: SVN-Gilroy-regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    letter-spacing: 0.75px;
+    color: #ffffff;
+}
+.about-us .company-origin {
+    font-family: SVN-Gilroy-regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #ffffff;
+}
+.about-us .company-address .icon-company-address {
+    width: 50px;
+}
+.about-us .company-address,
+.about-us .corporate-email {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    text-decoration: none;
+}
+.about-us .company-address .icon-company-address,
+.about-us .corporate-email .icon-corporate-email {
+    margin-right: 20px;
+}
+.about-us .company-address .text-company-address,
+.about-us .corporate-email .text-corporate-email {
+    font-family: SVN-Gilroy-regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #ffffff;
+}
+.company-policy {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.company-policy .title-company-policy {
+    font-family: SVN-Gilroy-regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    letter-spacing: 0.75px;
+    color: #ffffff;
+}
+.company-policy .items-company-policy {
+    font-family: SVN-Gilroy-regular;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #ffffff;
+    margin: 47px 0px;
+    text-decoration: none;
+}
+.company-app,
+.connection {
+    margin-top: 30px;
+}
+.company-app .title-company-app,
+.connection .title-connection,
+.connection .title-quick-link {
+    font-family: SVN-Gilroy-regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    letter-spacing: 0.75px;
+    color: #ffffff;
+}
+.company-app .app-store,
+.company-app .google-play {
+    width: 220px;
+}
+.company-app .app-store {
+    margin-top: 41px;
+    margin-bottom: 20px;
+}
+.connection .connection-platform {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.connection .blog-connection-platform {
+    font-family: SVN-Gilroy-regular;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #ffffff;
+    margin: 35px 0px;
+    text-decoration: none;
+}
+.connection .individual-connection-platform {
+    font-family: SVN-Gilroy-regular;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.logo-bottom-footer img {
+    width: 20%;
+}
+footer>.bottom-footer {
+    width: 87%;
+    margin: auto;
+    padding: 30px 0px 30px 0px;
+    align-items: center;
+}
+.text-bottom-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+.text-bottom-footer p {
+    font-family: SVN-Gilroy-regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+.text-bottom-footer p span {
+    font-family: SVN-Gilroy-regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.64);
+}

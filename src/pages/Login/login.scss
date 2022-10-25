@@ -1,0 +1,271 @@
+.login {
+    position: relative;
+    max-width: 1920px;
+    background: #4a4de3;
+    padding: 0px;
+    margin: 0px auto;
+  .login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .login .left-login {
+    width: 60%;
+    text-align: center;
+  }
+  .login .left-login .title-left-login p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    /* or 128% */
+    text-align: center;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+  .login .right-login {
+    width: 40%;
+    margin: 10px 10px 10px 0px;
+    padding: 140px 0px;
+    text-align: center;
+    background: #ffffff;
+    mix-blend-mode: normal;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .login .right-login .title-right-login p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    /* or 140% */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+    /* Grayscale / Ash */
+    color: #262338;
+    margin-bottom: 62px;
+  }
+  .login .right-login .facebook-right-login {
+    background: #4666d5;
+    border-radius: 40px;
+    border: none;
+    width: 57%;
+    height: 56px;
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .login .right-login .facebook-right-login .img-facebook-right-login {
+    position: absolute;
+    top: 17px;
+    left: 20px;
+  }
+  .login .right-login .facebook-right-login span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+
+    /* Grayscale / Background */
+    color: #f7f7fc;
+  }
+
+  .login .right-login .gmail-right-login {
+    background: #eff0f7;
+    border-radius: 40px;
+    border: none;
+    width: 57%;
+    height: 56px;
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .login .right-login .gmail-right-login .img-gmail-right-login {
+    position: absolute;
+    top: 17px;
+    left: 20px;
+  }
+  .login .right-login .gmail-right-login span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    /* Grayscale / Background */
+    color: #4e4b66;
+  }
+  .login .right-login .bottom-bizbooks-right-login {
+    background: #4666d5;
+    border-radius: 40px;
+    border: none;
+    width: 57%;
+    height: 56px;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    cursor: pointer;
+  }
+  .login .right-login .bottom-bizbooks-right-login span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    color: #fcfcfc;
+  }
+
+  .login .right-login .no-account-login {
+    margin-bottom: 62px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+    text-align: center;
+    letter-spacing: 0.75px;
+    /* Grayscale / Body */
+    color: #4e4b66;
+  }
+  .login .right-login .no-account-login p a {
+    color: rgb(29, 159, 240);
+    text-decoration: revert;
+  }
+  .login .right-login .bottom-skip-login {
+    display: flex;
+    text-decoration: none;
+  }
+  .login .right-login .bottom-skip-login .text-bottom-skip-login {
+    margin-right: 10px;
+    /* Desktop / Link Small */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    letter-spacing: 0.75px;
+    /* Primary/Default */
+    color: #3d40c6;
+  }
+  .login .right-login .bottom-skip-login .icon-bottom-skip-login {
+    margin-top: 2px;
+  }
+
+  /* repponts mobile*/
+  @media only screen and (min-width: 576px) {
+    .right-login > .title-right-login > .bottom-skip-login {
+      display: none;
+    }
+    .apple-right-login {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .login {
+      flex-direction: column;
+      overflow: hidden;
+      background-origin: inherit;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+    .left-login {
+      display: none;
+    }
+    .right-login {
+      width: 90% !important;
+    }
+    .login .right-login {
+      padding: 80px 0px 10px 0px;
+      margin: 20px 0px;
+      width: 100%;
+    }
+    .login .right-login .title-right-login {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 100px;
+      z-index: 1;
+    }
+    .login .right-login .title-right-login p {
+      font-style: normal;
+      font-family: SVN-Gilroy-regular;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 29px;
+      text-align: left;
+      margin: 0px;
+
+      z-index: 1;
+    }
+    .right-login > .title-right-login > .bottom-skip-login {
+      display: block;
+    }
+    .right-login > .title-right-login > .bottom-skip-login > .text-bottom-skip-login {
+      margin: 0px;
+      font-family: SVN-Gilroy-regular;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 28px;
+      letter-spacing: 0.75px;
+      color: #111111;
+      z-index: 1;
+    }
+    .right-login > .title-right-login > .bottom-skip-login .icon-bottom-skip-login {
+      display: none;
+    }
+    .login .right-login .facebook-right-login,
+    .title-right-login,
+    .login .right-login .gmail-right-login,
+    .login .right-login .bottom-bizbooks-right-login {
+      width: 90%;
+      z-index: 1;
+    }
+    .login .right-login .facebook-right-login span {
+      font-family: SVN-Gilroy-regular;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 0.75px;
+      color: #f7f7fc;
+    }
+    .login .right-login .gmail-right-login span,
+    .login .right-login .bottom-bizbooks-right-login span {
+      font-family: SVN-Gilroy-regular;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 0.75px;
+    }
+    .login .right-login .gmail-right-login .img-gmail-right-login,
+    .login .right-login .facebook-right-login .img-facebook-right-login {
+      left: 15px;
+      top: 15px;
+      width: 24px;
+      height: 24px;
+    }
+    .right-login .bottom-bizbooks-right-login {
+      margin-top: 50px !important;
+    }
+    .login > .right-login > .bottom-skip-login {
+      display: none;
+    }
+    .login .right-login .no-account-login {
+      font-weight: 600;
+      font-size: 13px;
+      font-family: SVN-Gilroy-regular;
+      line-height: 20px;
+      letter-spacing: 0.75px;
+      z-index: 1;
+    }
+    .login .right-login .no-account-login p strong {
+      color: rgb(0, 159, 222);
+      text-decoration: underline;
+    }
+  }
+}
