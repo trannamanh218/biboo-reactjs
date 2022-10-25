@@ -20,7 +20,7 @@ const Pdf = () => {
               <div className="icon-left">
                 <img src="img/Playhead2.png" alt="" />
               </div>
-              <div className="text-left">Nghe-Audio</div>
+              <Link to="/player" className="text-left">Nghe-Audio</Link>
             </div>
           </div>
         </div>
